@@ -20,16 +20,9 @@ $events = $query->fetchAll(PDO::FETCH_OBJ);
             </div>
         <?php } ?>
 
-        <?php if (isset($_GET['message']) && $_GET['message'] == 'error5') { ?>
+        <?php if (isset($_GET['message']) && $_GET['message'] == 'error') { ?>
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
                 Se terminaron los cupos disponibles.
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-        <?php } ?>
-
-        <?php if (isset($_GET['message']) && $_GET['message'] == 'eventDeleted') { ?>
-            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                El evento ha sido eliminado.
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         <?php } ?>

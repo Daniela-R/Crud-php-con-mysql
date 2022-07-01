@@ -22,7 +22,7 @@
                     <div class="row align-items-center">
                         <a href="#" class="col-auto"></a>
                         <a href="#" class="col-auto header-tittle">
-                            <h3 class="tracking-in-expand">EVENTO</h3>
+                            <h3 class="tracking-in-expand"></h3>
                         </a>
                     </div>
                 </div>

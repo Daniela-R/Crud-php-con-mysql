@@ -42,7 +42,7 @@ INSERT INTO `events` (`id`, `name`, `month`, `description`) VALUES
 (5, 'system of a down', 'Junio', 'System of a Down es una banda de rock estadounidense de ascendencia armenia, formada en Glendale, California, en el año 1994. Está compuesta por Serj Tankian, Daron Malakian, Shavo Odadjian y John Dolmayan.'),
 (6, 'slipknot', 'Junio', 'Slipknot es una banda estadounidense de metal alternativo formada en 1995 en Des Moines, Iowa, Estados Unidos. Sus integrantes en la actualidad son Corey Taylor, Craig Jones, Jim Root, Mick Thomson, Shawn Crahan y Sid Wilson.'),
 (7, 'Korn', 'Junio', 'Korn es una banda estadounidense de nu-metal de Bakersfield, California, Estados Unidos, formada en 1993. Son considerados los pioneros del género nu metal​​ junto con Deftones'),
-(8, 'Rammstein', 'Julio', 'Rammstein es una banda alemana de metal industrial formada en 1994 por los músicos Till Lindemann, Richard Z. Kruspe, Oliver Riedel, Paul Landers, Christian Lorenz y Christoph Schneider.​');
+(8, 'Rammstein', 'Junio', 'Rammstein es una banda alemana de metal industrial formada en 1994 por los músicos Till Lindemann, Richard Z. Kruspe, Oliver Riedel, Paul Landers, Christian Lorenz y Christoph Schneider.​');
 
 -- --------------------------------------------------------
 

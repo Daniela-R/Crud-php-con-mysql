@@ -24,8 +24,8 @@ if(count($usuario_evento) > 0) {
     header("Location: Pagina_principal.php?message=error4");
     exit;
     
-} else if($cantidad[0]->cantidad > 100){
-    header("Location: Pagina_principal.php?message=error5");
+} else if($cantidad[0]->cantidad < 2){
+    header("Location: Pagina_principal.php?message=error");
     exit;
 }
 
@@ -36,7 +36,9 @@ else{
         header("Location: Pagina_principal.php?message=success");
     } else {
         header("Location: Pagina_principal.php?message=errorRegistro");
-        exit;
+        exit();
     }
 }
+
+
 
