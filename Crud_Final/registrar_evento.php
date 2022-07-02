@@ -16,7 +16,7 @@ $query = $bd->query("SELECT * FROM events WHERE id = $eventId");
 $event = $query->fetchAll(PDO::FETCH_OBJ);
 
 $query2 = $bd->query("
-select ue.semana, e.name as nombre, 2-count( ue.id_user) as cupos from usuario_evento ue 
+select ue.semana, e.name as nombre, 100-count( ue.id_user) as cupos from usuario_evento ue 
 inner join events e on e.id = ue.id_event
 group by ue.semana, e.name
 order by e.name asc

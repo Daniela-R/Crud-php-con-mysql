@@ -1,12 +1,12 @@
 <?php include 'header.php'; ?>
 
 <?php
-/* Se llaman los datos de la tabla events */
+
 include_once 'conexion.php';
 $query = $bd->query("SELECT * FROM events");
 $events = $query->fetchAll(PDO::FETCH_OBJ);
 
-/* Se cuenta cada evento */
+
 
 ?>
 
